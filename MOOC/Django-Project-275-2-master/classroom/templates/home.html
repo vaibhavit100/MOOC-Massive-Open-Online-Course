@@ -1,0 +1,72 @@
+<html>
+
+<head>
+ <title>MOOC</title>
+</head>
+
+
+<body>
+
+<form id="form3" action="/logout/" method="GET">
+    <br><br>
+    <table>
+     <tr>
+
+    <td>
+    <a href="http://127.0.0.1:8000/home/">Home</a>
+    </td>
+
+    <td> <td><td><td><td><td><td><td>
+    <a href="http://127.0.0.1:8000/get_user/">Profile</a>
+     </td> </td></td></td></td></td></td></td>
+
+    <td> <td><td><td><td><td><td><td>
+    <a href="http://127.0.0.1:8000/course_home/">Course</a>
+     </td> </td></td></td></td></td></td></td>
+
+     <td> <td><td><td><td><td><td><td>
+    <a href="http://127.0.0.1:8000/category_home/">Category</a>
+     </td> </td></td></td></td></td></td></td>
+
+     <td> <td><td><td><td><td><td><td>
+    <a href="http://127.0.0.1:8000/quiz/">Quiz</a>
+     </td> </td></td></td></td></td></td></td>
+
+     <td> <td><td><td><td><td><td><td>
+    <a href="http://127.0.0.1:8000/announcement_home/">Announcement</a>
+     </td> </td></td></td></td></td></td></td>
+
+     <td> <td><td><td><td><td><td><td>
+    <a href="http://127.0.0.1:8000/discussion_home/">Discussion</a>
+     </td> </td></td></td></td></td></td></td>
+
+     <td> <td><td><td><td><td><td><td>
+    <select name="mooc">
+
+    <option value="moocname" selected>MOOC Name</option>
+    {% for item in list %}
+        <option value="{{ item.secondaryURL }}">{{ item.primaryURL }}</option>
+    {% endfor %}
+    </select>
+     </td> </td></td></td></td></td></td></td>
+
+ <td><td><td><td><td><td><td>
+ <input type="submit" value="Logout" />
+ </td></td></td></td></td></td></td>
+ </tr>
+</table>
+
+
+<h1>Welcome {{user}}</h1>
+
+
+<p>
+
+<input type="hidden" name="email" value= "%{{email}}">
+
+</p>
+</form>
+</body>
+
+
+<html>

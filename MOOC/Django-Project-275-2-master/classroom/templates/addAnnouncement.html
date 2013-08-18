@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Add Announcement</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<style>
+body{
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+</style>
+</head>
+<h1> Add Announcement </h1>
+<body>
+<form id="form3" action="/logout/" method="GET">
+<br><br>
+<table>
+ <tr>
+<td>
+<a href="http://127.0.0.1:8000/home/">Home</a>
+</td>
+
+<td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/get_user/">Profile</a>
+ </td> </td></td></td></td></td></td></td>
+
+<td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/course_home/">Course</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/category_home/">Category</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/quiz/">Quiz</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/annoucement_home/">Announcement</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/discussion_home/">Discussion</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td><td><td><td><td><td><td>
+ <input type="submit" value="Logout" />
+ </td></td></td></td></td></td></td>
+
+ </tr>
+    </table>
+
+   </form>
+
+	<form id="form3" action="/announcement_home/" method="POST">
+{% csrf_token %}
+        <table>
+
+
+		<tr>
+    <td> Course :
+     <select name="courseId">
+<option value="coursename" selected>Select a Course</option>
+{% for item in course %}
+    <option value="{{ item.courseId}}">{{ item.title }}</option>
+{% endfor %}
+	</td>
+  </tr>
+		<tr>
+            <td>
+               Title:
+		<input type="text" name="title" value="" /><br />
+		<br>
+            </td>
+		</tr>
+		<tr>
+            <td>
+               Description:
+		<input type="text" name="description" value="" /><br />
+		<br>
+            </td>
+		</tr>
+
+		<tr>
+            <td>
+                <input type="submit" value="Add Announcement" />
+            </td>
+		</tr>
+		
+
+
+ </table>
+	</form>
+</body>
+</html>

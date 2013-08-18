@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>List Course</title>
+
+</head>
+<body>
+<form id="form3" action="/logout/" method="GET">
+<br><br>
+<table>
+ <tr>
+<td>
+<a href="http://127.0.0.1:8000/home/">Home</a>
+</td>
+
+<td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/get_user/">Profile</a>
+ </td> </td></td></td></td></td></td></td>
+
+<td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/course_home/">Course</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/category_home/">Category</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/quiz/">Quiz</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/announcement_home/">Announcement</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/discussion_home/">Discussion</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td><td><td><td><td><td><td>
+ <input type="submit" value="Logout" />
+ </td></td></td></td></td></td></td>
+
+ </tr>
+    </table>
+   </form>
+
+
+<h1 align="center">Course Details</h1>
+<br />
+<br />
+<br />
+<script type="text/javascript">
+    alert("instructor name"+list.instructor[0].name);
+  </script>
+ <form id="form1" action="/update_course_success/" method="GET" >
+
+
+
+<table align="center">
+  <tr>
+    <td> Title : </td>
+    <td><input name="title" type="text"  value="{{list.title}}"  />
+      <br /></td>
+  </tr>
+  <tr>
+    <td> Description : </td>
+    <td><input name="description" type="text"  value="{{list.Description}}" />
+      <br />
+  <tr>
+    <td> Category : </td>
+    <<td> <select name="category">
+<option value="categoryname" selected>Category</option>
+{% for item in categoryName %}
+    <option value="{{ item.name }}">{{ item.name }}</option>
+{% endfor %}
+	</td>
+  </tr>
+
+     <tr>
+    <td> Term : </td>
+    <td><input name="term" type="text" value="{{list.term}}" />
+      <br /></td>
+  </tr>
+
+     <tr>
+    <td> Section : </td>
+    <td><input name="section" type="text" value="{{list.section}}" />
+      <br /></td>
+  </tr>
+
+
+     <tr>
+    <td> Department : </td>
+    <td><input name="department" type="text" value="{{list.dept}}" />
+      <br /></td>
+  </tr>
+
+
+
+     <tr>
+    <td> Version : </td>
+    <td><input name="version" type="text" value="{{list.version}}" />
+      <br /></td>
+  </tr>
+
+
+
+
+     <tr>
+    <td> Attachment : </td>
+    <td><input name="attachment" type="text" value="{{list.attachment}}" />
+      <br /></td>
+  </tr>
+
+
+
+     <tr>
+    <td> Year : </td>
+    <td><input name="year" type="text" value={{list.year}} />
+      <br /></td>
+  </tr>
+
+
+
+
+  <tr align="center">
+<td>
+        <input name="save" type="submit" value="Save" />
+     </td>
+  </tr>
+
+  </tr>
+</table>
+
+
+
+
+
+
+     </form>
+</body>

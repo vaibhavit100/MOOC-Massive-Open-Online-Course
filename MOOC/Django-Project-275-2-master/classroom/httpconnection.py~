@@ -1,0 +1,190 @@
+# The class provides connection to MOOC and Django over HTTP
+# 
+import sys
+import requests
+import json
+from requests import session
+
+
+user = "user"
+quiz = "quiz"
+course = "course"
+category = "category"
+discussion = "discussion"
+announcement = "announcement"
+url = "http://localhost:8080/"
+
+print "HTTP CONNECTION OF DJANGO & BOTTLE"
+##--------User----##
+# home - sign In Call
+def home_Connect(data):
+   print "homeConnect"
+   return requests.post(url+user+"/auth",data)
+   
+# signUpHome - sign UP Call
+def signUpHome_Connect(data):
+   print "signUpHomeConnect"
+   return requests.post(url+user, data)
+
+# getUser - get User Call
+def getUser_Connect(data):
+   print "getUserConnect"
+   return requests.post(url+user+"/abc@gmail.com", data)
+
+# updateUser - update User Call
+def updateUser_Connect(data):
+   print "updateUserConnect"
+   return requests.post(url+user+"/abc@gmail.com", data)
+
+# deleteUser - delete User Call
+def deleteUser_Connect(data):
+   print "deleteUserConnect"
+   return requests.post(url+user+"/abc@gmail.com", data)
+
+
+
+##-------COURSE--------####
+# enrollCourse - enroll Course Call
+def enrollCourse_Connect(data):
+   print "enrollCourseConnect"
+   return requests.post(url+course+"/enroll", data)
+
+# dropCourse - drop Course Call
+def dropCourse_Connect(data):
+   print "dropCourseConnect"
+   return requests.post(url+course+"/drop", data)
+
+# addCourse - add Course Call
+def addCourse_Connect(data):
+   print "addCourseConnect"
+   return requests.post(url+course, data)
+
+# getCourse - get Course Call
+def getCourse_Connect(data):
+   print "getCourseConnect"
+   return requests.post(url+course+"/RangersCourse1", data)
+
+# listCourse - list Course Call
+def listCourse_Connect(data):
+   print "listCourseConnect"
+   return requests.post(url+course+"/list", data)
+
+# updateCourse - update Course Call
+def updateCourse_Connect(data):
+   print "updateCourseConnect"
+   return requests.post(url+course+"/abc@gmail.com", data)
+
+# deleteCourse - delete Course Call
+def deleteCourse_Connect(data):
+   print "deleteCourseConnect"
+   return requests.post(url+course+"/RangersCourse1", data)
+
+# addCategory - add Category Call
+def addCategory_Connect(data):
+   print "addCategoryConnect"
+   return requests.post(url+category, data)
+
+# getCategory - get Category Call
+def getCategory_Connect(data):
+   print "getCategoryConnect"
+   return requests.post(url+category+"/", data)
+
+# listCategory - list Category Call
+def listCategory_Connect(data):
+   print "listCategoryConnect"
+   return requests.post(url+category+"/list", data)
+
+# addQuiz - add Quiz Call
+def addQuiz_Connect(data):
+   print "addQuizConnect"
+   return requests.post(url+"/quizzes", data)
+
+# getQuiz - get Quiz Call
+def getQuiz_Connect(data):
+   print "getQuizConnect"
+   return requests.post(url+quiz+"/", data)
+
+# listQuiz - list Quiz Call
+def listQuiz_Connect(data):
+   print "listQuizConnect"
+   return requests.post(url+quiz, data)
+
+# updateQuiz - update Quiz Call
+def updateQuiz_Connect(data):
+   print "updateQuizConnect"
+   return requests.post(url+quiz+"/id", data)
+
+# deleteQuiz - delete Quiz Call
+def deleteQuiz_Connect(data):
+   print "deleteQuizConnect"
+   return requests.post(url+quiz+"/id", data)
+
+# addAnnouncement - add Announcement Call
+def addAnnouncement_Connect(data):
+   print "addAnnouncementConnect"
+   return requests.post(url+"/announcements", data)
+
+# listAnnouncement - list Announcement Call
+def listAnnouncement_Connect(data):
+   print "listAnnouncementConnect"
+   return requests.post(url+announcement+"/list", data)
+
+# getAnnouncement - get Announcement Call
+def getAnnouncement_Connect(data):
+   print "getAnnouncementConnect"
+   return requests.post(url+announcement+"/", data)
+
+# updateAnnouncement - update Announcement Call
+def updateAnnouncement_Connect(data):
+   print "updateAnnouncementConnect"
+   return requests.post(url+announcement+"/", data)
+
+# deleteAnnouncement - delete Announcement Call
+def deleteAnnouncement_Connect(data):
+   print "deleteAnnouncementConnect"
+   return requests.post(url+announcement+"/", data)
+
+# addDiscussion - add Discussion Call
+def addDiscussion_Connect(data):
+   print "addDiscussionConnect"
+   return requests.post(url+discussion, data)
+
+# listDiscussion - list Discussion Call
+def listDiscussion_Connect(data):
+   print "listDiscussionConnect"
+   return requests.post(url+discussion+"/list", data)
+
+# getDiscussion - get Discussion Call
+def getDiscussion_Connect(data):
+   print "getDiscussionConnect"
+   return requests.post(url+discussion+"/", data)
+
+# updateDiscussion - update Discussion Call
+def updateDiscussion_Connect(data):
+   print "updateDiscussionConnect"
+   return requests.post(url+discussion+"/", data)
+
+# deleteDiscussion - delete Discussion Call
+def deleteDiscussion_Connect(data):
+   print "deleteDiscussionConnect"
+   return requests.post(url+discussion+"/", data)
+
+# addMessage - add Message Call
+def addMessage_Connect(data):
+   print "addMessageConnect"
+   return requests.post(url+discussion+"/message", data)
+
+# listMessage - list Message Call
+def listMessage_Connect(data):
+   print "listMessageConnect"
+   return requests.post(url+discussion+"/message"+"/", data)
+
+# updateMessage - update Message Call
+def updateMessage_Connect(data):
+   print "updateMessageConnect"
+   return requests.post(url+discussion+"/message"+"/", data)
+
+# deleteMessage - delete Message Call
+def deleteMessage_Connect(data):
+   print "deleteMessageConnect"
+   return requests.post(url+discussion+"/", data)

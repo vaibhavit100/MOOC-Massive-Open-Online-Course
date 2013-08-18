@@ -1,0 +1,74 @@
+<html>
+
+<head>
+ <title>Course Home</title>
+</head>
+
+
+<body>
+<<<<<<< HEAD
+
+<form id="form3" action="/logout/" method="GET">
+<br><br>
+<table>
+ <tr>
+
+<td>
+<a href="http://127.0.0.1:8000/home/">Home</a>
+</td>
+
+<td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/profile/">Profile</a>
+ </td> </td></td></td></td></td></td></td>
+
+<td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/course/">Course</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/category/">Category</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/quiz/">Quiz</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/annoucement/">Announcement</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/discussion/">Discussion</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td> <td><td><td><td><td><td><td>
+<select name="mooc">
+<option value="moocname" selected>MOOC Name</option>
+<option value="Ranger">Ranger</option>
+<option value="Illuminati">Illuminati</option>
+</select>
+ </td> </td></td></td></td></td></td></td>
+
+ <td><td><td><td><td><td><td>
+ <input type="submit" value="Logout" />
+ </td></td></td></td></td></td></td>
+ </tr>
+</table>
+<h1>Welcome {{id}}  {{success}}</h1>
+
+
+<h1></h1>
+<p>
+
+</p>
+</body>
+<form id="form3" action="/logout/" method="GET">
+<input type="hidden" name="email" value= "%{{email}}">
+
+</p>
+<input type="submit" value="Logout" />
+</form>
+</body>
+
+
+<html>

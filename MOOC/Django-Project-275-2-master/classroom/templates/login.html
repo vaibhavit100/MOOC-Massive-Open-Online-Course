@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Log in</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<style>
+body{
+font-family:Arial,Helvetica,sans-serif;
+font-size: 12px;
+}
+</style>
+</head>
+<h1> Ranger MOOC SIGN IN </h1>
+<h2>{{ message_delete }} {{ message }}</h2>
+<body>
+
+<form id="form1" action="/home/" method="POST">
+<table>
+<tr><th>
+UserName:
+<input type="text" name="username" value="" /><br /></th>
+<td><td><td><td></td></td></td></td>
+<br /><br />
+</tr>
+
+ <tr>
+<th>
+     Password:
+<input type="password" name="password" value="" /><br />
+     </th>
+</tr>
+</table>
+<br /><br />
+<input type="submit" value="Log In" />
+
+<br><br>
+<a href="http://127.0.0.1:8000/signUp/">NEW USER: SIGN UP HERE</a>
+ 
+</form>
+</body>
+</html>

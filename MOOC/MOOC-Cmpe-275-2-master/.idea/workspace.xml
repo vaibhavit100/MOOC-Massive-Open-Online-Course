@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="abecdad3-3671-4b8f-9668-c3b658e11f54" name="Default" comment="" />
+    <ignored path="MOOC-Cmpe-275-2-master.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/getCourse.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437311361" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/courseHome.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437217614" ignored="false" />
+    <file path="/courseHome.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437218074" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/moo/urls.py" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368446495774" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/views.py" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368446597142" ignored="false" />
+    <file path="/views.py" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368446597142" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/listCourseDelete.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437347938" ignored="false" />
+    <file path="/listCourseDelete.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437347938" ignored="false" />
+    <file path="/urls.py" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368445882774" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/listCourse.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437342702" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/httpconnection.py" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368446658652" ignored="false" />
+    <file path="/httpconnection.py" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368446656836" ignored="false" />
+    <file path="/moo.py" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368438125121" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/addCourse.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437188841" ignored="false" />
+    <file path="/addCourse.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437188841" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/home.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437318073" ignored="false" />
+    <file path="/home.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437318073" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/models.py" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368316434997" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/moo/settings.py" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368317355777" ignored="false" />
+    <file path="/settings.py" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368317086220" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/profile.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437358719" ignored="false" />
+    <file path="/profile.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437359148" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/categoryHome.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437210238" ignored="false" />
+    <file path="/categoryHome.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437210238" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/update.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437369182" ignored="false" />
+    <file path="/update.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437369182" ignored="false" />
+    <file path="/listCourse.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437342702" ignored="false" />
+    <file path="/listCategory.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437336721" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/listCategory.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437336721" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/addCategory.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437181230" ignored="false" />
+    <file path="/addCategory.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437181230" ignored="false" />
+    <file path="/getCategory.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437305149" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/getCategory.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437305149" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/updateCourseHome.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437381548" ignored="false" />
+    <file path="/updateCourseHome.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437381548" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/addAnnouncement.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437174917" ignored="false" />
+    <file path="/addAnnouncement.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437174917" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/announcementHome.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437202913" ignored="false" />
+    <file path="/announcementHome.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437203416" ignored="false" />
+    <file path="/mongo.py" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368402969864" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/updateCourse.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437374849" ignored="false" />
+    <file path="/updateCourse.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437374849" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/error.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368412874720" ignored="false" />
+    <file path="/error.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368412874720" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/listAnnouncement.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437324678" ignored="false" />
+    <file path="/listAnnouncement.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437325304" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/getAnnouncement.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437299390" ignored="false" />
+    <file path="/getAnnouncement.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437299390" ignored="false" />
+    <file path="/dropCourse.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437230617" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/dropCourse.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437230617" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/enrollCourse.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437238097" ignored="false" />
+    <file path="/enrollCourse.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437238097" ignored="false" />
+    <file path="/getCourse.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437311361" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/listAnnouncementDelete.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437331360" ignored="false" />
+    <file path="/listAnnouncementDelete.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368437331360" ignored="false" />
+    <file path="/classroom.py" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368423872270" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/addDiscussion.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368438741403" ignored="false" />
+    <file path="/addDiscussion.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368438739627" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/discussionHome.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368446747914" ignored="false" />
+    <file path="/discussionHome.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368446748246" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/listCourse Discussion.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368442934337" ignored="false" />
+    <file path="/listCourse Discussion.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368442934337" ignored="false" />
+    <file path="/getDiscussion.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368444653213" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/getDiscussion.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368444816509" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/listCourseDiscussionDelete.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368445862497" ignored="false" />
+    <file path="/listCourseDiscussionDelete.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368445862497" ignored="false" />
+    <file path="$PROJECT_DIR$/../Django-Project-275-2-master/classroom/templates/getDiscussionDelete.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368446371467" ignored="false" />
+    <file path="/getDiscussionDelete.html" changelist="abecdad3-3671-4b8f-9668-c3b658e11f54" time="1368446371467" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="MOOC-Cmpe-275-2-master" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="moo.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/moo/moo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="390" column="20" selection-start="8562" selection-end="8562" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classroom.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/moo/classroom.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="311" column="44" selection-start="8318" selection-end="8318" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mongo.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/moo/data/mongo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="983" column="0" selection-start="37291" selection-end="37291" vertical-scroll-proportion="-1.1229699">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/moo/classroom.py" />
+        <option value="$PROJECT_DIR$/moo/moo.py" />
+        <option value="$PROJECT_DIR$/moo/data/mongo.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="64" />
+    <option name="y" value="-4" />
+    <option name="width" value="1287" />
+    <option name="height" value="661" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MOOC-Cmpe-275-2-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MOOC-Cmpe-275-2-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MOOC-Cmpe-275-2-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MOOC-Cmpe-275-2-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MOOC-Cmpe-275-2-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MOOC-Cmpe-275-2-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MOOC-Cmpe-275-2-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MOOC-Cmpe-275-2-master" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MOOC-Cmpe-275-2-master" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="abecdad3-3671-4b8f-9668-c3b658e11f54" name="Default" comment="" />
+      <created>1368265019415</created>
+      <updated>1368265019415</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="-4" width="1287" height="661" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26153848" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/moo/classroom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="311" column="44" selection-start="8318" selection-end="8318" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moo/moo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="390" column="20" selection-start="8562" selection-end="8562" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moo/data/mongo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="983" column="0" selection-start="37291" selection-end="37291" vertical-scroll-proportion="-1.1229699">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Sign Up</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<style>
+body{
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+</style>
+</head>
+<h1> Add a Course in Ranger MOOC </h1>
+<body>
+	<form id="form3" action="/signUp_home/" method="POST">
+{% csrf_token %}
+		Category:
+		<input type="text" name="category" value="" /><br />
+		<br>
+		Title:
+		<input type="text" name="title" value="" /><br />
+		<br>
+		Section:
+		<input type="text" name="section" value="" /><br />
+		<br>
+		Department:
+		<input type="text" name="department" value="" /><br />
+		<br>
+		Term:
+		<input type="text" name="term" value="" /><br />
+		<br>
+		Year:
+		<input type="text" name="year" value="" /><br />
+		<br>
+		Instructor:
+		Name:
+		<input type="text" name="name" value="" /><br />
+		<br>
+		Email:
+		<input type="text" name="email" value="" /><br />
+		<br>
+		Days:
+		<input type="checkbox" name="days" value="monday">Monday
+		<input type="checkbox" name="days" value="tuesday">Tuesday
+		<input type="checkbox" name="days" value="wednesday">Wednesday
+		<input type="checkbox" name="days" value="thursday">Thursday 
+		<input type="checkbox" name="days" value="friday">Friday<br>
+		
+
+ 
+		Hours:
+		<input type="checkbox" name="hours" value="3">3:00 pm-6:00 PM
+		<input type="checkbox" name="hours" value="6">6:00pm-8.45 PM<br>
+		Description:
+		<input type="text" name="description" value="" /><br />
+		<br>
+		Attachment:
+		<input type="text" name="attachment" value="" /><br />
+		<br>
+		
+		<input type="submit" value="Add Course" />
+
+ 
+	</form>
+</body>
+</html>

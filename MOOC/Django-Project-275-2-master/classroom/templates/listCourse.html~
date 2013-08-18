@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>List Course</title>
+</head>
+<body>
+<form id="form3" action="/logout/" method="GET">
+<br><br>
+<table>
+ <tr>
+<td>
+<a href="http://127.0.0.1:8000/home/">Home</a>
+</td>
+
+<td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/get_user/">Profile</a>
+ </td> </td></td></td></td></td></td></td>
+
+<td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/course/">Course</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/category/">Category</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/quiz/">Quiz</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/annoucement/">Announcement</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/discussion/">Discussion</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td><td><td><td><td><td><td>
+ <input type="submit" value="Logout" />
+ </td></td></td></td></td></td></td>
+
+ </tr>
+    </table>
+   </form>
+
+
+<h1>List Course</h1>
+<br />
+<br />
+<br />
+ <form id="form1" action="/update_user_success/" method="POST" name="update">
+
+<table align="center">
+<tr>
+<th> Select : </th> <td></td><td></td> <td></td> <td></td>
+<th> Course Title : </th> <td></td><td></td> <td></td> <td></td>
+<th> Course Description : </th><td></td><td></td> <td></td> <td></td>
+</tr>
+{% for item in list %}
+       <tr>
+<td>
+<input type="radio" name="courseSelection" value=""><br>
+</td><td></td><td></td> <td></td> <td></td>
+    <td> {{item.title}} </td>
+    <td></td> <td></td> <td></td> <td></td>
+    <td> {{item.Description}} </td>
+
+    </tr>
+{% endfor %}
+
+ <tr align="center">
+<td>
+        <input name="getCourse" type="submit" value="ShowDetails" />
+     </td>
+  </tr>
+
+</table>
+     </form>
+</body>

@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Sign Up</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<style>
+body{
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+</style>
+</head>
+<h1> Add a Course in Ranger MOOC </h1>
+<body>
+<form id="form3" action="/logout/" method="GET">
+<br><br>
+<table>
+ <tr>
+<td>
+<a href="http://127.0.0.1:8000/home/">Home</a>
+</td>
+
+<td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/get_user/">Profile</a>
+ </td> </td></td></td></td></td></td></td>
+
+<td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/course_home/">Course</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/category_home/">Category</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/quiz/">Quiz</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/announcement_home/">Announcement</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/discussion_home/">Discussion</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td><td><td><td><td><td><td>
+ <input type="submit" value="Logout" />
+ </td></td></td></td></td></td></td>
+
+ </tr>
+    </table>
+
+   </form>
+
+	<form id="form3" action="/course_home/" method="POST">
+{% csrf_token %}
+        <table>
+            <tr> <td> <select name="category">
+<option value="categoryname" selected>Category</option>
+{% for item in categoryName %}
+    <option value="{{ item.name }}">{{ item.name }}</option>
+{% endfor %}
+	</td>
+    </tr>
+
+		<tr>
+            <td>Title:
+		<input type="text" name="title" value="" /><br />
+		<br></td>
+		</tr>
+		<tr>
+            <td>
+               Section:
+		<input type="text" name="section" value="" /><br />
+		<br>
+            </td>
+		</tr>
+		<tr>
+            <td>
+               Department:
+		<input type="text" name="department" value="" /><br />
+		<br>
+            </td>
+		</tr>
+		<tr>
+            <td>
+                Term:
+		<input type="text" name="term" value="" /><br />
+		<br>
+            </td>
+		</tr>
+		<tr>
+            <td>
+                Year:
+		<input type="text" name="year" value="" /><br />
+		<br>
+            </td>
+		</tr>
+		<tr>
+            <td>
+                Instructor:
+		Name:
+		<input type="text" name="name" value="{{ fname }}" readonly="readonly"/><br />
+		<br>
+            </td>
+		</tr>
+		<tr>
+            <td>
+               Email:
+		<input type="text" name="email" value="{{ email }}" readonly="readonly"/><br />
+		<br>
+            </td>
+		</tr>
+        <tr>
+            <td>
+                Days:
+		<input type="checkbox" name="days" value="monday">Monday
+		<input type="checkbox" name="days" value="tuesday">Tuesday
+		<input type="checkbox" name="days" value="wednesday">Wednesday
+		<input type="checkbox" name="days" value="thursday">Thursday
+		<input type="checkbox" name="days" value="friday">Friday<br>
+            </td>
+        </tr>
+
+		
+        <tr>
+            <td>
+                Hours:
+		<input type="checkbox" name="hours" value="3">3:00 pm-6:00 PM
+		<input type="checkbox" name="hours" value="6">6:00pm-8.45 PM<br>
+            </td>
+        </tr>
+ 
+		<tr>
+            <td>
+               Description:
+		<input type="text" name="description" value="" /><br />
+		<br>
+            </td>
+		</tr>
+		<tr>
+            <td>
+                Attachment:
+		<input type="text" name="attachment" value="" /><br />
+		<br>
+            </td>
+		</tr>
+		<tr>
+            <td>
+                <input type="submit" value="Add Course" />
+            </td>
+		</tr>
+		
+
+
+ </table>
+	</form>
+</body>
+</html>

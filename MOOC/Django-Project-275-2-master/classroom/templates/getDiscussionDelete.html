@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Discussion Details</title>
+
+</head>
+<body>
+<form id="form3" action="/logout/" method="GET">
+<br><br>
+<table>
+ <tr>
+<td>
+<a href="http://127.0.0.1:8000/home/">Home</a>
+</td>
+
+<td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/get_user/">Profile</a>
+ </td> </td></td></td></td></td></td></td>
+
+<td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/course_home/">Course</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/category_home/">Category</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/quiz/">Quiz</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/announcement_home/">Announcement</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td> <td><td><td><td><td><td><td>
+<a href="http://127.0.0.1:8000/discussion_home/">Discussion</a>
+ </td> </td></td></td></td></td></td></td>
+
+ <td><td><td><td><td><td><td>
+ <input type="submit" value="Logout" />
+ </td></td></td></td></td></td></td>
+
+ </tr>
+    </table>
+   </form>
+
+
+<h1 align="center">Discussion Details</h1>
+<br />
+<br />
+<br />
+<script type="text/javascript">
+    alert("instructor name"+list.instructor[0].name);
+  </script>
+ <form id="form1" action="/delete_discussion" method="GET" >
+
+
+  <table border="1" align="center">
+<tr>
+<th>Select</th>
+<th>Discussion Title</th>
+<th>Discussion Created By</th>
+<th>Discussion Created At</th>
+
+</tr>
+<tr>
+    {% for item in list %}
+<td><input type="radio" name="discussionSelection" value="{{ item.disId }}"></td>
+<td>{{item.title}}</td>
+<td>{{item.created_by}}</td>
+<td>{{item.created_at}}</td>
+
+
+</tr>
+        {% endfor %}
+   <tr align="center">
+<td><input type="submit" value="Delete Discussion"/></td>
+  </tr>
+</table>
+
+     </form>
+</body>
